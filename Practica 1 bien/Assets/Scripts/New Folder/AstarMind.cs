@@ -113,16 +113,16 @@ namespace Assets.Scripts.AStarSolution
         private Nodo Search(BoardInfo board, CellInfo start, CellInfo[] goals)
         {
             var open = new List<Nodo>();
-            var listaHijos = new List<Nodo>();
+            var elementosVisitados = new List<Nodo>();
             Nodo inicial = new Nodo(start);
 
             open.Add(inicial);
 
-            if(comprobarGoals(inicial, goals))
+            while(comprobarGoals(inicial, goals)==false)
             {
-                return inicial;
+                open = expandirHijos(inicial, board, open, goals, elementosVisitados);
+                //inicial;
             }
-            open = expandirHijos(inicial, board, open, goals, listaHijos);
             
 
             
