@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica 1 bien", "Practica 1 bien.csproj", "{B1105D1F-476E-DE62-C41B-9416CE0C7FB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1105D1F-476E-DE62-C41B-9416CE0C7FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1105D1F-476E-DE62-C41B-9416CE0C7FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1105D1F-476E-DE62-C41B-9416CE0C7FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1105D1F-476E-DE62-C41B-9416CE0C7FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
